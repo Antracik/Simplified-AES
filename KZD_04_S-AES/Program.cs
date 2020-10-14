@@ -3,7 +3,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace KZD_04_S_AES
+namespace SimpleAES
 {
     public class Program
     {
@@ -67,9 +67,11 @@ namespace KZD_04_S_AES
             Console.WriteLine($"Plain text: {plainText}");
             var differentBlock = crypt.Encrypt(plainText, differentKey);
             Console.WriteLine($"Encrypted: {Encoding.UTF8.GetString(encryptedBlock)}");
-            Console.WriteLine($"{crypt.Decrypt(differentBlock, testKey)}");
+            Console.WriteLine($"Decrypted: {crypt.Decrypt(differentBlock, testKey)}");
             
             Console.WriteLine(new string('_', 30));
+
+            Console.ReadKey(true);
         }
 
     }

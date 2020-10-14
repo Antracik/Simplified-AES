@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KZD_04_S-AES", "KZD_04_S-AES\KZD_04_S-AES.csproj", "{AB7E6968-0205-4A4E-8573-8125AF8ED16E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAES", "KZD_04_S-AES\SimpleAES.csproj", "{AB7E6968-0205-4A4E-8573-8125AF8ED16E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
